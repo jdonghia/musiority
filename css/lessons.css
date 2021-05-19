@@ -1,0 +1,51 @@
+.lessons {
+    background: #fff;
+    border-radius: 1rem;
+    height: 67.5%;
+    width: 90%;
+}
+
+.lessons__title {
+    background: #ccc;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.lessons__list {
+    font-size: 1.25rem;
+    margin: 1.25rem 2rem;
+}
+
+.lessons__listTitle {
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+
+.lessons__sublist {
+    margin: 1rem 0;
+}
+
+.lessons__sublistItem {
+    margin: .25rem 0;
+}
+
+@media screen and (max-width: 1366px) {
+
+    .lessons__title {
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
+
+    .lessons__listTitle {
+        font-size: 1.1rem;
+    }
+
+    .lessons__sublistItem {
+        font-size: .9rem;
+        margin: .1rem 0;
+    }
+}

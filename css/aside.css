@@ -1,0 +1,65 @@
+.aside{
+    background-color:rgba(0, 0, 0, .7);  
+    bottom: 0;
+    left: 80%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.aside__title{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 2rem 0 1rem;
+}
+
+.aside__audios{
+    margin: 0 1.5rem;
+}
+.aside__audio{
+    margin-top: 1.8em;
+}
+
+.aside__button{
+    background: #fff;
+    border-radius: 1em 0 0 1em;
+    border: none;
+    height: 12rem;
+    position: fixed;
+    right: 0;
+    top: 35%;
+    width: 1.5rem;
+}
+.aside__button:hover{
+    background-color: rgb(110, 110, 101)
+}
+
+#aside__button--black {
+    background: #000;
+}
+
+#aside__button--black:hover {
+    background: #666;
+}
+
+@media screen and (max-width: 1366px) {
+    
+    .aside {
+       left: 75%;
+    }
+
+    .aside__title {
+        font-size: 1.75rem;
+    }
+    
+    .aside__audio {
+        height: 2.4rem;
+        margin: .5rem 0;
+        width: 90%;
+    }
+    
+}

@@ -1,0 +1,26 @@
+.teachers {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 90%;
+}
+
+.teacher__img {
+    border: 6px solid #fff;
+    border-radius: 50%;
+    height:27.5rem;
+    width:23rem;
+}
+
+@media screen and (max-width: 1366px) {
+    
+    .teachers {
+        width: 95%;
+    }
+    
+    .teacher__img {
+        height: 23.5rem;
+        width: 18rem;
+    }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <title>Musiority</title>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="João Nasser Donghia">
+    <meta name="description" content="Projeto WEB">
+    <meta name="keywords" content="PROJETO PARA ESTÁCIO">
+   
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/form.css">
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <script src="JS/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="index.html" class="header__logo">Musiority</a>
+            <nav>
+                <ul class="header__ul">
+                    <li class="header__li"><a class="header__link" href="index.html">Início</a></li>
+                    <li class="header__li"><a class="header__link" href="lessons.html">Aulas</a></li>
+                    <li class="header__li"><a class="header__link" href="signup.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <aside class="aside" style="display: none;">
+            <h1 class="aside__title">Conheça</h1>
+            <div class="aside__audios">
+                <audio class="aside__audio" src="sounds/Chopin - Ballade No1 G minor.mp3" controls></audio>
+                <audio class="aside__audio" src="sounds/Chopin - Ballade No1 G minor.mp3" controls></audio>
+                <audio class="aside__audio" src="sounds/Chopin - Ballade No1 G minor.mp3" controls></audio>
+                <audio class="aside__audio" src="sounds/Chopin - Ballade No1 G minor.mp3" controls></audio>
+                <audio class="aside__audio" src="sounds/Chopin - Ballade No1 G minor.mp3" controls></audio>
+                <audio class="aside__audio" src="sounds/Chopin - Ballade No1 G minor.mp3" controls></audio>
+                <audio class="aside__audio" src="sounds/Chopin - Ballade No1 G minor.mp3" controls></audio>
+                <audio class="aside__audio" src="sounds/Chopin - Ballade No1 G minor.mp3" controls></audio>
+                <audio class="aside__audio" src="sounds/Chopin - Ballade No1 G minor.mp3" controls></audio>
+                <audio class="aside__audio" src="sounds/Chopin - Ballade No1 G minor.mp3" controls></audio>
+            </div>
+        </aside>
+        <button id="aside__button--black" class="aside__button"></button>
+    </section>
+
+    <section class="signup">
+        <form action="db/insert.php" method="POST" class="form">
+        <div class="form__row">
+            <div class="form__container">
+               <label class="form__label" for="name">Nome</label>
+               <input class="form__input" type="text">
+            </div>
+            <h3 class="form__title">Cadastro</h3>
+            <div class="form__container">
+               <label class="form__label" for="email">Email</label>
+               <input class="form__input" type="email">
+            </div>
+        </div>
+        <div class="form__row">
+            <div class="form__container">
+                <label class="form__label" for="birthDate">Data de nascimento</label>
+                <input class="form__input" type="date">
+            </div>
+           <div class="form__container">
+               <label class="form__label" for="knowledge">Nível de conhecimento</label>
+               <select class="form__input" name="level">
+                    <option value="default">Selecione</option>
+                    <option value="Basic">Básico</option>
+                    <option value="Intermediate">Intermediário</option>
+                    <option value="Advanced">Avançado</option>
+                </select>
+            </div>
+           <div class="form__container">
+               <label class="form__label" for="teacher">Professor</label>
+               <select class="form__input" name="teacher">
+                    <option value="default">Selecione</option>
+                    <option value="bach">Bach</option>
+                    <option value="beethoven">Beethoven</option>
+                    <option value="chopin">Chopin</option>
+                </select>
+            </div>
+        </div>
+        <textarea class="form__textarea" >Porque nosso conservatório</textarea>
+        <button class="form__button" >Confirmar</button>
+        </form>
+    </section>  
+    
+    <footer class="footer">
+        <span class="footer__copyright">João Nasser Donghia ©</span>
+    </footer>
+
+</body>
+</html>

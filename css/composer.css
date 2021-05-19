@@ -1,0 +1,113 @@
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 180vh;
+    justify-content: space-around;
+}
+
+.composer {
+    align-items: center;
+    background: #000;
+    border-radius: 10rem;
+    display: flex;
+    justify-content:space-around;
+    margin: 0 auto;
+    padding: 3rem;
+    width: 80%;
+}
+
+.composer__img {
+    border-radius: 30%;
+    height: 100%;
+    width: 45%;
+}
+
+.composer__description {
+    color: #fff;
+    text-align: center;
+    width: 40%;
+}
+
+.composer__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.composer__subtitle {
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.composer__text {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+    line-height: 1.25;
+}
+
+.piece {
+    display: flex;
+    height: 60%;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.piece__description {
+    margin-top: 2rem;
+    text-align: center;
+    width: 50%;
+}
+
+.piece__img {
+    width: 45%;
+}
+
+.piece__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.piece__text {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin: 0 2rem;
+}
+
+@media screen and (max-width: 1366px) {
+
+    .main {
+        height: 220vh;
+    }
+
+    .composer__img {
+        height: 100%;
+    }
+
+    .composer__title {
+        font-size: 1.75rem;
+    }
+    
+    .composer__subtitle {
+        font-size: 1.25rem;
+    }
+
+    .composer__text {
+        font-size: 1rem;
+    }
+
+    .piece {
+        margin-bottom: 4.5rem;
+    }
+
+    .piece__title {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .piece__text {
+        font-size: 1rem;
+    }
+}
