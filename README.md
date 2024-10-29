@@ -1,1 +1,1 @@
-![alt text](https://github.com/jdonghia/musiority/blob/[branch]/musiority.png?raw=true)
+![alt text](https://github.com/jdonghia/musiority/blob/master/musiority.png?raw=true)
