@@ -1,4 +1,4 @@
 # Musiority
-## index.html page preview:
 
+## index.html page preview:
 ![Main page](musiority.png)
