@@ -1,1 +1,4 @@
-![alt text](musiority.png)
+# Musiority
+## index.html page preview:
+
+![Main page](musiority.png)
