@@ -1,3 +1,3 @@
 # Musiority
 ## index.html page preview:
-![Main page](musiority.png)
+![Main page](homepage.png)
